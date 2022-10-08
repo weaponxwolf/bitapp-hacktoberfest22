@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-float">
+  <div class="container">
+    <a href="/home" class="navbar-brand">Bit<span class="text-primary">App</span></a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarContent">
+      <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Academics">
+          <a class="nav-link" id="academicslink" href="/academics/">
+            <img src="/assets/img/academics-icon.png" style="width: 1.7rem;" alt="">
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Explore">
+          <a class="nav-link" id="explorelink" href="/explore/"><img src="/assets/img/explore-icon.png"
+              style="width: 1.7rem;" alt=""></a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Maps">
+          <a class="nav-link red" id="mapslink" href="/maps/"><img src="/assets/img/map-icon.png" style="width: 1.7rem;"
+              alt=""></a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Clubs And Activities">
+          <a class="nav-link" id="clubsandactslink" href="/clubactivities/"><img
+              src="/assets/img/activities-icon.png" style="width: 1.7rem;" alt=""></a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Files">
+          <a class="nav-link" id="fileslink" href="/files/"><img src="/assets/img/files-icon.png" style="width: 1.7rem;"
+              alt=""></a>
+        </li>
+
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Mails">
+          <a class="nav-link" id="mailslink" href="/mails/"><img src="/assets/img/mails.png" style="width: 1.7rem;"
+              alt=""><span style="font-size:0.7rem">7</span></a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Chats">
+          <a class="nav-link" id="chatslink" href="/chats/"><img src="/assets/img/chats-icon.png" style="width: 1.7rem;"
+              alt=""></a>
+        </li>
+
+
+      </ul>
+      <div class="ml-auto">
+
+        <a href="#" onclick="chooseprofileaction()" id="profileoption" class="btn btn-outline rounded-pill">Profile</a>
+        <a href="/profile/" style="display: none" id="profilebutton" class="btn btn-outline rounded-pill">Profile</a>
+        <a href="/profile/profilefiles/" style="display: none" id="profileeditbutton"
+          class="btn btn-outline rounded-pill">Edit Profile</a>
+        <a href="/logout" class="btn btn-outline rounded-pill">Log Out</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="notificationstoast"
+  style="background-color:white;position:fixed;min-width:400px;padding:1rem;right: 0px;top: 100px; border: 1px solid rgb(0, 0, 0);z-index:5;width:40rem; border-radius:1rem;display:none">
+</div>

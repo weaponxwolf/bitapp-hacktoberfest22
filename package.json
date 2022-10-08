@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.6.5"
+  },
+  "name": "bitapp-hacktoberfest22",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponxwolf/bitapp-hacktoberfest22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaponxwolf/bitapp-hacktoberfest22/issues"
+  },
+  "homepage": "https://github.com/weaponxwolf/bitapp-hacktoberfest22#readme"
+}
