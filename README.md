@@ -1,5 +1,6 @@
 # BitApp - Hacktoberfest 2022
 
+![Logo](https://github.com/weaponxwolf/bitapp-hacktoberfest22/blob/main/public/assets/img/Email%20Banners-Dark.png)
 
 To earn your Hacktober Fest tee or tree reward:
 
