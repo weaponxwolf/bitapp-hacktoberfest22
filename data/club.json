@@ -1,0 +1,18 @@
+{
+      "_id": {
+            "$oid": "6288aea98bfad62e4eb48b24"
+      },
+      "email": "club@bitmesra.ac.in",
+      "password": "PASSWORD",
+      "members": [{
+            "name": "FULL NAME",
+            "email": "roll_no@bitmesra.ac.in",
+            "batch": "2020",
+            "clubjoinyear": "2021",
+            "designation": "designation",
+            "rank": "3",
+            "password": "password"
+      }],
+      "events": [],
+      "__v": 0
+}
