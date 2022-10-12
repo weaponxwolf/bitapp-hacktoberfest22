@@ -1,0 +1,33 @@
+{
+      "_id": {
+            "$oid": "6285d19e91797fa3bb8eb597"
+      },
+      "email": "roll_no@bitmesra.ac.in",
+      "profile": {
+            "id": "115486617600613996161",
+            "displayName": "FULL NAME",
+            "name": {
+                  "familyName": "LAST NAME",
+                  "givenName": "FIRST NAME"
+            },
+            "emails": [{
+                  "value": "roll_no@bitmesra.ac.in",
+                  "verified": true
+            }],
+            "_json": {
+                  "sub": "115486617600613996161",
+                  "name": "FULL NAME",
+                  "given_name": "FIRST NAME",
+                  "family_name": "LAST NAME",
+                  "email": "roll_no@bitmesra.ac.in",
+                  "email_verified": true
+            }
+      },
+      "fullyCreated": true,
+      "loginsessions": [],
+      "__v": 0,
+      "branch": "BRANCH",
+      "password": "PASSWORD",
+      "section": "SECTION",
+      "semester": "SEMESTER"
+}
